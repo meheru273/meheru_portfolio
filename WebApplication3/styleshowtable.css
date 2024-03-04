@@ -1,0 +1,36 @@
+﻿/* Style for the GridView */
+#projectform {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+    /* Style for table header */
+    #projectform th {
+        background-color: #f2f2f2;
+        padding: 8px;
+        text-align: left;
+    }
+
+   
+    #projectform tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    
+    #projectform td {
+        padding: 8px;
+    }
+
+    
+    #projectform a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+
+        #projectform a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
